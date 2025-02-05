@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Page</title>
+    <link rel="shortcut icon" type="image/jpg" href="C:\Users\yasha\OneDrive\Desktop\website\small-profile.jpg" />
+    <link rel="stylesheet" href="mystyle.css" />
+</head>
+<div style="background-image: url('banner.jpg'); border-bottom: 15px solid #00467f; border-top: 15px solid #00467f; background-size: cover; height: 500px; padding-top: 90px; text-align: center; ">
+    <h1 style="color: black; font-size:70px;margin-top:415px; border-bottom-width:10px;">Contact Me</h1>
+</div>
+ </div>
+</body>
+<body style="margin:0;">
+    <style type="text/css">
+        * {
+            text-decoration: none;
+        }
+
+        .navbar {
+            background: #00467f;
+            font-family: calibri;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        .navdiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo a {
+            font-size: 35px;
+            font-weight: 600;
+            color: white;
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+
+            li a {
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+                margin-right: 25px;
+            }
+
+        button {
+            outline: none;
+            background-color: #0064b5;
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 90px;
+        }
+
+            button a {
+                color: white;
+                font-weight: bold;
+                font-size: 15px;
+            }
+
+            button:hover {
+                background: #0064b5;
+                color: white;
+                border: 2px solid solid #0064b5;
+                box-shadow: 0 0 10px #bfe2ff, 0 0 10px #bfe2ff;
+                cursor: pointer;
+                transform: scale(1.0);
+            }
+
+        input {
+            outline: none;
+            background-color: white;
+            width: 70%;
+            margin-left: 12%;
+            font-size: 20px;
+            padding: 16px;
+            border-radius: 10px;
+            border-color: black;
+            margin-bottom: 20px;
+            font-family: 'Libre', sans-serif;
+        }
+
+        textarea {
+            outline: none;
+            background-color: white;
+            width: 70%;
+            margin-left: 12%;
+            font-size: 20px;
+            padding: 16px;
+            border-radius: 10px;
+            border-color: black;
+            margin-bottom: 25px;
+            font-family: 'Libre', sans-serif;
+        }
+
+        input:focus {
+            border-color: #0064b5;
+        }
+
+        input:focus-within {
+            border-color: #0064b5;
+            border-width: 5px;
+        }
+
+        textarea:focus-within {
+            outline: none;
+            border-color: #0064b5;
+            border-width: 5px;
+        }
+    </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href"">Welcome</a> </div>
+                <ul>
+                    <button><a href="index.html">Home</a></button>
+                    <button><a href="About.html">About</a></button>
+                    <button><a href="Art_Page.html">Arts and Media</a></button>
+                    <button><a href="contact.html">Contact</a></button>
+                </ul>
+            </div>
+        </nav>
+    </body>
+    <form action="https://formspree.io/f/mkgwbprw" method="POST">
+        <h2>Let's Get in Touch</h2>
+        <hr />
+        <input type='text' name="name" placeholder="Your Name Here" required />
+        <input type='email' name="email" placeholder="Your Email Here" required />
+        <textarea rows="5" cols="60" name="message" placeholder="Enter Message Here" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
