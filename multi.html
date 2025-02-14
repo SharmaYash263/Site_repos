@@ -1,122 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Multimedia Art Page</title>
-    <link rel="shortcut icon" type="image/jpg" href="C:\Users\yasha\OneDrive\Desktop\website\small-profile.jpg" />
-    <link rel="stylesheet" href="mystyle.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y.S - Multimedia Art</title>
+    <link rel="stylesheet" href="styles.css">
+   <link rel="icon" type="image/jpg" href="images/profiles/icon_pfp.jpg"> 
+    <!-- Load the header and animation dynamically -->
+    <script src="header.js" defer></script>
+    <script src="script.js" defer></script>
+    
 </head>
-<div style="background-image: url('banner.jpg'); border-bottom: 15px solid #00467f; border-top: 15px solid #00467f; background-size: cover; height: 500px; padding-top: 90px; text-align: center; ">
-    <h1 style="color: black; font-size:70px;margin-top:415px; border-bottom-width:10px;">Arts and Media</h1>
+
+<h2 class="welcome-heading">Multimedia Art Pieces</h2>
+<hr>
+
+<p  class="about-text-description">
+    This page showcases a timeline of my artistic journey, featuring a collection of multimedia marker and pencil art in chronological order.
+    It highlights milestones in my development, from early experiments to advanced techniques with color pencils, markers, paints, fineliners, etc.
+    Explore how my skills and creative vision have evolved over time.
+</p>
+
+<div class="year-navigation">
+    <a href="#2023">2023</a> |
+    <a href="#2019">2019</a> |
+    <a href="#2018">2018</a> |
+    <a href="#2017">2017</a> |
+    <a href="#2016">2016</a>
 </div>
- </div>
-</body>
-<body style="margin:0;">
-    <style type="text/css">
-        * {
-            text-decoration: none;
-        }
+<hr>
+<body>
+    <section class="art-gallery">
+        </div>
 
-        .navbar {
-            background: #00467f;
-            font-family: calibri;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
+        <h2 class="about-heading" id="2023"> 2023</h2>
+        <hr>
 
-        .navdiv {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .logo a {
-            font-size: 35px;
-            font-weight: 600;
-            color: white;
-        }
-
-        li {
-            list-style: none;
-            display: inline-block;
-        }
-
-            li a {
-                color: white;
-                font-size: 18px;
-                font-weight: bold;
-                margin-right: 25px;
-            }
-
-        button {
-            background-color: #0064b5;
-            margin-left: 10px;
-            border-radius: 10px;
-            padding: 10px;
-            width: 90px;
-        }
-
-            button a {
-                color: white;
-                font-weight: bold;
-                font-size: 15px;
-            }
-    </style>
-    </head>
-    <body>
-        <nav class="navbar">
-            <div class="navdiv">
-                <div class="logo"><a href"">Welcome</a> </div>
-                <ul>
-                    <button><a href="index.html">Home</a></button>
-                    <button><a href="About.html">About</a></button>
-                    <button><a href="Art_Page.html">Arts and Media</a></button>
-                    <button><a href="contact.html">Contact</a></button>
-                </ul>
-            </div>
-        </nav>
-    </body>
-
-    <style>
-        /* Center the navigation and add padding */
-        nav {
-            text-align: center;
-            font-family: 'Libre', sans-serif;
-            font-size: 30px;
-        }
-    </style>
-    </head>
-    <body>
-
-        <h2>Multimedia Art Pieces</h2>
-        <hr />
-        <p>
-            This page showcases a timeline of my artistic journey, featuring a curated collection of multimedia marker and pencil art in chronological order.
-            It highlights milestones in my development, from early experiments to advanced techniques with color pencils, markers, paints, fineliners, etc.
-            Explore how my skills and creative vision have evolved over time.
-        </p>
-        <!-- Navigation Section -->
-        <nav>
-            <a href="#2023">2023</a> |
-            <a href="#2019">2019</a> |
-            <a href="#2018">2018</a> |
-            <a href="#2017">2017</a> |
-            <a href="#2016">2016</a>
-        </nav>
-
-        <h2 id="2023">2023</h2>
-        <hr />
-
-        <div id="Thanos-section" class="image-and-description">
-            <a href="multi_21.jpg" class="imagelong-display">
-                <img src="multi_21.jpg" class="displaylong-image" alt="Multimedia Art">
-                <div class="overlay">
-                    <div class="textlong-display">The Mad Titan’s Triumph</div>
+        <div id="Thanos-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/multimedia/multi_21.jpg" alt="Square Art">
+                    <div class="art-title">The Mad Titan’s Triumph</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “The Mad Titan’s Triumph” was created on July 31, 2023, and uses a combination of fineliner pen, water marker, and color pencil.
                     This piece was created after the release of Avengers: Endgame. The idea stemmed from imagining a comic-accurate,
                     more vengeful Thanos triumphing over the MCU Avengers. I experimented with mixing colored fineliners and water markers to employ a different shading technique.
@@ -125,15 +51,13 @@
             </div>
         </div>
 
-        <div id="Flamin-section" class="image-and-description">
-            <a href="multi_20.jpg" class="imagelong-display">
-                <img src="multi_20.jpg" class="displaylong-image" alt="Multimedia Art">
-                <div class="overlay">
-                    <div class="textlong-display">FLamin Hot</div>
+        <div id="Flamin-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/multimedia/multi_20.jpg" alt="Square Art">
+                    <div class="art-title">Joker</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Flamin Hot” was completed on March 13,2023, employs a mix of fineliner, pencil, and water marker.
                     This piece was a project where I focused on creating a detailed foreground that would blend seamlessly into the background.
                     I aimed for a solid, consistent application using colored pencils, ensuring the deep shades of purple blended with as little white as possible.
@@ -142,18 +66,16 @@
             </div>
         </div>
 
-        <h2 id="2019">2019</h2>
-        <hr />
+        <h2 class="about-heading" id="2019"> 2019</h2>
+        <hr>
 
-        <div id="Joker-section" class="image-and-description">
-            <a href="multi_19.jpg" class="imagelong-display">
-                <img src="multi_19.jpg" class="displaylong-image" alt="Multimedia Art">
-                <div class="overlay">
-                    <div class="textlong-display">Killing Joke</div>
+        <div id="Joker-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/multimedia/multi_19.jpg" alt="Square Art">
+                    <div class="art-title">Joker</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Killing Joke” was created on  March 30,2019, and uses a combination of fineliner pen, pencil, and water marker.
                     This piece was inspired by DC’s “The Killing Joke” and helped me practice layering water markers to the best of my abilities.
                     I focused on proportions and aimed to create a stylized yet recognizable villain face. I worked on developing a poster-esque design, identifying areas for improvement along the way.
@@ -162,15 +84,13 @@
             </div>
         </div>
 
-        <div id="Masked-section" class="image-and-description">
-            <a href="poster_4.jpg" class="imagelong-display">
-                <img src="poster_4.jpg" class="displaylong-image" alt="Multimedia Art">
-                <div class="overlay">
-                    <div class="textlong-display">Masked Elemental</div>
+        <div id="Masked-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/posters/poster_4.jpg" alt="Square Art">
+                    <div class="art-title">Masked Elemental</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     "Masked Elemental" was created on February 4, 2019, uses a combination of pencil, fineliner pen, and water markers.
                     The creation of this piece demanded precise attention to detail to balance the dynamic elements within the composition and ensure proper proportionality.
                     I focused on creating a dynamic piece with a similar, yet stylized character design, blending it into a poster design. Working on the dragon designs was
@@ -179,18 +99,16 @@
             </div>
         </div>
 
-        <h2 id="2018">2018</h2>
-        <hr />
+        <h2 class="about-heading" id="2018"> 2018</h2>
+        <hr>
 
-        <div id="Joker2-section" class="image-and-description">
-            <a href="multi_17.jpg" class="imagewide-display">
-                <img src="multi_17.jpg" class="displaywide-image" alt="Multimedia Art">
-                <div class="overlay">
-                    <div class="textlong-display">Joker</div>
+        <div id="Joker2-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box landscape">
+                    <img src="images/All/multimedia/multi_17.jpg" alt="Square Art">
+                    <div class="art-title">Joker</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Joker” created on Novermber 6,2018, and uses a mix of water marker, pencil, and fineliner.
                     I gradually began adding layers of water marker to increase saturation, later mixing to create different shades consistent
                     with the style. To avoid overshading, I only layered in the darkest shadow areas.
@@ -199,84 +117,47 @@
                 </p>
             </div>
         </div>
-        <br />
-        <link rel="stylesheet" href="mystyle.css">
-        <title>Image Gallery</title>
-        </head>
-        <body>
-            <div id="Practice2-section" class="new-container">
-                <div class="new-image-display">
-                    <a href="multi_16.jpg" class="new-image-link">
-                        <img src="multi_16.jpg" alt="Multimedia Art" class="new-display-image">
-                        <div class="new-overlay">
-                            <div class="new-text-display">Multimedia Pen Sketch</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="new-image-display">
-                    <a href="multi_15.jpg" class="new-image-link">
-                        <img src="multi_15.jpg" alt="Multimedia Art" class="new-display-image">
-                        <div class="new-overlay">
-                            <div class="new-text-display">Multimedia Pen Sketch</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="new-description">
-                    <p>
-                        “Multimedia Pen Sketch" created in 2018, employs a mix of different types of pens, and colored highlighters.
+
+        <div id="Practice2-section" class="portrait-section">
+            <div class="portrait-gallery">
+                <img src="images/All/multimedia/multi_16.jpg" alt="Portrait Art 1">
+                <img src="images/All/multimedia/multi_15.jpg" alt="Portrait Art 2">
+            </div>
+            <div class="portrait-description">
+                <p>
+                    “Multimedia Pen Sketch" created in 2018, employs a mix of different types of pens, and colored highlighters.
                         In these sketches, I didn’t aim for any specific design.
                         Instead, I treated it as an exercise in spontaneous drawing and developing an adaptive mindset.
                         Once something was drawn in pen or highlighter, there was no erasing.
                         Although combining these mediums might seem limiting, it pushed me to think creatively about different ways to create textures and designs,
                         while also allowing me to use bright colors and quick, flashy designs.
                     </p>
-                </div>
             </div>
-        </body>
-        <br />
-        <link rel="stylesheet" href="mystyle.css">
-        <title>Image Gallery</title>
-        </head>
-        <body>
-            <div id="Practice1-section" class="new-container">
-                <div class="new-image-display">
-                    <a href="multi_14.jpg" class="new-image-link">
-                        <img src="multi_14.jpg" alt="Multimedia Art" class="new-display-image">
-                        <div class="new-overlay">
-                            <div class="new-text-display">Multimedia Pen Sketch</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="new-image-display">
-                    <a href="multi_13.jpg" class="new-image-link">
-                        <img src="multi_13.jpg" alt="Multimedia Art" class="new-display-image">
-                        <div class="new-overlay">
-                            <div class="new-text-display">Multimedia Pen Sketch</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="new-description">
-                    <p>
-                        “Multimedia Pen Sketch" created in 2018, employs a mix of different types of pens, colored highlighters, and alchohol markers.
+        </div>
+
+
+        <div id="Practice1-section" class="portrait-section">
+            <div class="portrait-gallery">
+                <img src="images/All/multimedia/multi_14.jpg" alt="Portrait Art 1">
+                <img src="images/All/multimedia/multi_13.jpg" alt="Portrait Art 2">
+            </div>
+            <div class="portrait-description">
+                <p>
+                    “Multimedia Pen Sketch" created in 2018, employs a mix of different types of pens, colored highlighters, and alchohol markers.
                         I treated this piece as an exercise in spontaneous drawing and developing an adaptive mindset.
                         While combining these mediums might seem limiting, it encouraged me to think creatively about different ways to create textures and designs.
                         Using alcohol markers, in particular, helped me learn various techniques and provided a wide array of vibrant colors.
-                    </p>
-                </div>
+                </p>
             </div>
-        </body>
+        </div>
 
-        <br />
-
-        <div id="GVS-section" class="image-and-description">
-            <a href="multi_12.jpg" class="imagewide-display">
-                <img src="multi_12.jpg" class="displaywide-image" alt="Multimedia Art">
-                <div class="overlay">
-                    <div class="textlong-display">Goku V Superman</div>
+        <div id="GVS-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box landscape">
+                    <img src="images/All/multimedia/multi_12.jpg" alt="Square Art">
+                    <div class="art-title">Goku V Superman</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Goku V Superman” created in June 6, 2018 and is uses color pencil and fineliner.
                     The objective of this piece was the same as my previous Dragon Ball drawings: to
                     practice the fundamental skill of repetition in order to improve my effectiveness over time. Through this process,
@@ -285,49 +166,27 @@
             </div>
         </div>
 
-        <br />
-        <link rel="stylesheet" href="mystyle.css">
-        <title>Image Gallery</title>
-        </head>
-        <body>
-            <div id="Cyborgs-section" class="new-container">
-                <div class="new-image-display">
-                    <a href="multi_11.jpg" class="new-image-link">
-                        <img src="multi_11.jpg" alt="Multimedia Art" class="new-display-image">
-                        <div class="new-overlay">
-                            <div class="new-text-display">Multimedia Pen Sketch</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="new-image-display">
-                    <a href="multi_10.jpg" class="new-image-link">
-                        <img src="multi_10.jpg" alt="Multimedia Art" class="new-display-image">
-                        <div class="new-overlay">
-                            <div class="new-text-display">Multimedia Pen Sketch</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="new-description">
-                    <p>
-                        “Multimedia Pen Sketch” which was completed in 2018, is a combination of fineliner, highighter, water, and alcohol markers.
-                        I used this piece to practice combining different markers and highlighters, exploring qualities like saturation, texture, and how these mediums interact.
-                        I experimented with layering, such as applying water markers over alcohol markers, which proved valuable in discovering the specific color and texture effects.
-                    </p>
-                </div>
+        <div id="Cyborgs-section" class="portrait-section">
+            <div class="portrait-gallery">
+                <img src="images/All/multimedia/multi_11.jpg" alt="Portrait Art 1">
+                <img src="images/All/multimedia/multi_10.jpg" alt="Portrait Art 2">
             </div>
-        </body>
-
-        <br />
-
-        <div id="GogetaSSB-section" class="image-and-description">
-            <a href="multi_9.jpg" class="imagelong-display">
-                <img src="multi_9.jpg" class="displaylong-image" alt="Multimedia Art">
-                <div class="overlay">
-                    <div class="textlong-display">Super Sayain Blue Gogeta</div>
-                </div>
-            </a>
-            <div class="description">
+            <div class="portrait-description">
                 <p>
+                    “Multimedia Pen Sketch” which was completed in 2018, is a combination of fineliner, highighter, water, and alcohol markers.
+                    I used this piece to practice combining different markers and highlighters, exploring qualities like saturation, texture, and how these mediums interact.
+                    I experimented with layering, such as applying water markers over alcohol markers, which proved valuable in discovering the specific color and texture effects.
+                </p>
+            </div>
+        </div>
+
+        <div id="GogetaSSB-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/multimedia/multi_9.jpg" alt="Landscape Art">
+                    <div class="art-title">Super Sayain Blue Gogeta</div>
+                </div>
+                <p class="art-description">
                     “Super Sayain Blue Gogeta” created in January 1, 2018, and uses color pencil, water marker, watercolor, acrlyic paint, highlighter, and fineliner.
                     I focused on creating a background that aligned with the angle at which Gogeta was approaching, ensuring it was packed with details fitting of a devastating battle.
                     Watercolor was used to create a dynamic Ki effect, while sprinkles of white acrylic paint enhanced the energy and intensity of the scene.
@@ -337,18 +196,16 @@
             </div>
         </div>
 
-        <h2 id="2017">2017</h2>
-        <hr />
+        <h2 class="about-heading" id="2017"> 2017</h2>
+        <hr>
 
-        <div id="Inferno-section" class="image-and-description">
-            <a href="multi_8.jpg" class="imagelong-display">
-                <img src="multi_8.jpg" class="displaylong-image" alt="Multimedia Art">
-                <div class="overlay">
-                    <div class="textlong-display">Inferno</div>
+        <div id="Inferno-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/multimedia/multi_8.jpg" alt="Landscape Art">
+                    <div class="art-title">Inferno</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Inferno” created in November 13,2017, uses color pencil and fineliner.
                     The vibrant reds, oranges, and yellows of the color pencils bring the flames to life, creating a dynamic and intense atmosphere.
                     The fineliner adds sharp details to the man’s determined expression and the dragon’s fierce form, emphasizing the connection between the two.
@@ -356,15 +213,13 @@
             </div>
         </div>
 
-        <div id="GokuUI2-section" class="image-and-description">
-            <a href="multi_7.jpg" class="imagelong-display">
-                <img src="multi_7.jpg" class="displaylong-image" alt="Multimedia Art">
-                <div class="overlay">
-                    <div class="textlong-display">Sponsored Goku</div>
+        <div id="GokuUI2-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/multimedia/multi_7.jpg" alt="Landscape Art">
+                    <div class="art-title">Sponsored Goku</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Sponsored Goku” was completed on November 20, 2017, and uses color pencil, fineliner, and water marker.
                     Created using color pencil, marker, and fineliner, the artwork combines bold outlines with vibrant colors to bring out the character's dynamic presence.
                     The tattoos are intricately detailed with fineliner, while the watch and jeans are rendered with a mix of markers and color pencils to add texture and depth.
@@ -372,72 +227,47 @@
             </div>
         </div>
 
-        <br />
-
-        <link rel="stylesheet" href="mystyle.css">
-        <title>Image Gallery</title>
-        </head>
-        <body>
-            <div id="RoseBlue-section" class="new-container">
-                <div class="new-image-display">
-                    <a href="multi_6.jpg" class="new-image-link">
-                        <img src="multi_6.jpg" alt="Multimedia Art" class="new-display-image">
-                        <div class="new-overlay">
-                            <div class="new-text-display">Super Sayain Blue Vegito</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="new-image-display">
-                    <a href="multi_5.jpg" class="new-image-link">
-                        <img src="multi_5.jpg" alt="Multimedia Art" class="new-display-image">
-                        <div class="new-overlay">
-                            <div class="new-text-display">Super Sayain Rose Goku</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="new-description">
-                    <p>
-                        “Super Sayain Blue Vegito” and "Super Sayain Rose Goku" were completed in January, 2017, and both use color pencil, pencil, and fineliner.
-                        This piece marked my first attempt at creating a two-page spread, where I experimented with boldening different lines to create depth.
-                        While I identified areas for improvement, particularly in the background, I’m satisfied with certain aspects of the work, such as the character shading.
-                        This experience helped me better understand the balance between line work and shading, contributing to my growth as an artist.
-                    </p>
-                </div>
+        <div id="RoseBlue-section" class="portrait-section">
+            <div class="portrait-gallery">
+                <img src="images/All/multimedia/multi_6.jpg" alt="Portrait Art 1">
+                <img src="images/All/multimedia/multi_5.jpg" alt="Portrait Art 2">
             </div>
-        </body>
+            <div class="portrait-description">
+                <p>“Super Sayain Blue Vegito” and "Super Sayain Rose Goku" were completed in January, 2017, and both use color pencil, pencil, and fineliner.
+                    This piece marked my first attempt at creating a two-page spread, where I experimented with boldening different lines to create depth.
+                    While I identified areas for improvement, particularly in the background, I’m satisfied with certain aspects of the work, such as the character shading.
+                    This experience helped me better understand the balance between line work and shading, contributing to my growth as an artist.
+                </p>
+            </div>
+        </div>
+        
+        
+        <h2 class="about-heading" id="2016">2016</h2>
+        <hr>
 
-        <br />
-
-        <h2 id="2016">2016</h2>
-        <hr />
-
-        <div id="SSJ3Gotenks-section" class="image-and-description">
-            <a href="multi_3.jpg" class="imagelong-display">
-                <img src="multi_3.jpg" class="displaylong-image" alt="Multimedia Art">
-                <div class="overlay">
-                    <div class="textlong-display">Super Sayain 3 Gotenks</div>
+        <div id="Gotenks-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/multimedia/multi_3.jpg" alt="Landscape Art">
+                    <div class="art-title">Super Sayain 3 Gotenks</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Super Sayain 3 Gotenks” was completed on December 21, 2016, employs a combination of color pencil, and pen.
                     I focused on steadying my hand during the inking phase and becoming more comfortable with color pencils.
                     A valuable side benefit of using color pencils in multiple projects is that I'm learning not only their
                     applications but also how they interact with other materials.
                     This practice helped refine my technique and expand my understanding of different artistic mediums interacting with color pencil.
                 </p>
-            </div>
+        </div>
         </div>
 
-        <div id="Frieza-section" class="image-and-description">
-            <a href="multi_2.jpg" class="imagelong-display">
-                <img src="multi_2.jpg" class="displaylong-image" alt="Multimedia Art">
-                <div class="overlay">
-                    <div class="textlong-display">Mecha Frieza</div>
+        <div id="Frieza-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/multimedia/multi_2.jpg" alt="Landscape Art">
+                    <div class="art-title">Mecha Frieza</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     "Mecha Frieza" was completed on December 4, 2016, and is a mix of color pencil, and pen.
                     Creating an alien character, even though non-human, often relies on human proportions depending on the
                     style. By using different shades of grey in the tail and mechanical parts, I aimed to replicate a dynamic metallic effect.
@@ -446,15 +276,13 @@
             </div>
         </div>
 
-        <div id="RoseGogeta-section" class="image-and-description">
-            <a href="multi_1.jpg" class="imagelong-display">
-                <img src="multi_1.jpg" class="displaylong-image" alt="Multimedia Art">
-                <div class="overlay">
-                    <div class="textlong-display">Super Sayain Rose Gogeta</div>
+        <div id="RoseGogeta-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/multimedia/multi_1.jpg" alt="Imperial Dragon">
+                    <div class="art-title">Super Sayain Rose Gogeta</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Super Sayain Rose Gogeta” created November 29, 2016, employs a mix of color pencil, and pen.
                     This piece was a redraw where I focused on learning the basics of stylized proportion.
                     At the time, I had just gotten a new set of colored pencils, and creating a listed palette
@@ -463,4 +291,7 @@
                 </p>
             </div>
         </div>
+    </section>
+
+</body>
 </html>

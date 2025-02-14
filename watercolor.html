@@ -1,123 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Watercolor Paintings and Studies Page</title>
-    <link rel="shortcut icon" type="image/jpg" href="C:\Users\yasha\OneDrive\Desktop\website\small-profile.jpg" />
-    <link rel="stylesheet" href="mystyle.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y.S - Watercolor Art</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="images/profiles/icon_pfp.jpg"> 
+    <!-- Load the header and animation dynamically -->
+    <script src="header.js" defer></script>
+    <script src="script.js" defer></script>
+
 </head>
-<div style="background-image: url('banner.jpg'); border-bottom: 15px solid #00467f; border-top: 15px solid #00467f; background-size: cover; height: 500px; padding-top: 90px; text-align: center; ">
-    <h1 style="color: black; font-size:70px;margin-top:415px; border-bottom-width:10px;">Arts and Media</h1>
-</div>
- </div>
-</body>
-<body style="margin:0;">
-    <style type="text/css">
-        * {
-            text-decoration: none;
-        }
 
-        .navbar {
-            background: #00467f;
-            font-family: calibri;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
+<h2 class="welcome-heading">Watercolor Paintings and Studies</h2>
+<hr>
 
-        .navdiv {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .logo a {
-            font-size: 35px;
-            font-weight: 600;
-            color: white;
-        }
-
-        li {
-            list-style: none;
-            display: inline-block;
-        }
-
-            li a {
-                color: white;
-                font-size: 18px;
-                font-weight: bold;
-                margin-right: 25px;
-            }
-
-        button {
-            background-color: #0064b5;
-            margin-left: 10px;
-            border-radius: 10px;
-            padding: 10px;
-            width: 90px;
-        }
-
-            button a {
-                color: white;
-                font-weight: bold;
-                font-size: 15px;
-            }
-    </style>
-    </head>
-    <body>
-        <nav class="navbar">
-            <div class="navdiv">
-                <!-- <div class="logo"><a href="wc_15.jpg" class="imagelong-display"> <img src="wc_15.jpg" class="displaywide-image" alt="Commissioned Art">Welcome</a> </div> -->
-                <div class="logo"><a href"">Welcome</a> </div>
-                <ul>
-                    <button><a href="index.html">Home</a></button>
-                    <button><a href="About.html">About</a></button>
-                    <button><a href="Art_Page.html">Arts and Media</a></button>
-                    <button><a href="contact.html">Contact</a></button>
-                </ul>
-            </div>
-        </nav>
-    </body>
-
-    <style>
-        /* Center the navigation and add padding */
-        nav {
-            text-align: center;
-            font-family: 'Libre', sans-serif;
-            font-size: 30px;
-        }
-    </style>
-    </head>
-    <body>
-
-        <h2>Watercolor Paintings and Studies</h2>
-        <hr />
-        <p>
-            This page presents a timeline of my artistic journey through watercolor paintings and studies.
+<p  class="about-text-description">
+    This page presents a timeline of my artistic journey through watercolor paintings and studies.
             It features a curated collection of watercolor works and experiments in chronological order,
-            highlighting milestones from early techniques to more advanced studies. Explore how my skills and creative vision have developed over time.
-        </p>
-        <!-- Navigation Section -->
-        <nav>
-            <a href="#2022">2022</a> |
-            <a href="#2020">2020</a> |
-            <a href="#2019">2019</a> |
-            <a href="#2018">2018</a> |
-            <a href="#2017">2017</a>
-        </nav>
+            highlighting milestones from early techniques to more advanced studies. Explore how my skills have developed over time.
+</p>
 
-        <h2 id="2022">2022</h2>
-        <hr />
+<div class="year-navigation">
+    <a href="#2022">2022</a> |
+    <a href="#2020">2020</a> | 
+    <a href="#2019">2019</a> | 
+    <a href="#2018">2018</a> |
+    <a href="#2017">2017</a> 
+</div>
+<hr>
+<body>
+    <section class="art-gallery">
 
-        <div id="MK4-section" class="image-and-description">
-            <a href="wc_15.jpg" class="imagewide-display">
-                <img src="wc_15.jpg" class="displaywide-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Out-N-In MK4 Supra</div>
+        <h2 class="about-heading" id="2022"> 2022</h2>
+        <hr>
+
+        <div id="MK4-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box landscape">
+                    <img src="images/All/watercolor/wc_15.jpg" alt="Watercolor Art">
+                    <div class="art-title">Out-N-In MK4 Supra</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Out-N-In MK4 Supra” was created on August 12, 2022 using pencil, fineliner,highlighter, and watercolor paint.
                     This composition required a significant amount of time and effort,
                     meticulously following the rules of perspective to ensure the car and building were set proportionally.
@@ -127,19 +51,17 @@
                 </p>
             </div>
         </div>
+        
+        <h2 class="about-heading" id="2020"> 2020</h2>
+        <hr>
 
-        <h2 id="2020">2020</h2>
-        <hr />
-
-        <div id="Lofi-section" class="image-and-description">
-            <a href="wc_14.jpg" class="imagewide-display">
-                <img src="wc_14.jpg" class="displaywide-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">lofi-Girl</div>
+        <div id="Lofi-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box landscape">
+                    <img src="images/All/watercolor/wc_14.jpg" alt="Watercolor Art">
+                    <div class="art-title">Lofi-Girl</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Lofi-Girl” was completed on May 30, 2020 using pencil, fineliner, and watercolor paint.
                     This stylized recreation of the French YouTube channel’s Lofi stream background represents the culmination of my skills developed over previous years.
                     By referencing an existing piece and transforming it's style and palette entirely with watercolor, I was able to maintain its essence while adding my unique touch. This demonstrates my creative abilities and my capacity to adapt and innovate within my artistic practice.
@@ -147,18 +69,15 @@
                 </p>
             </div>
         </div>
-        <h2 id="2019">2019</h2>
-        <hr />
 
-        <div id="Practice4-section" class="image-and-description">
-            <a href="wc_13.jpg" class="imagelong-display">
-                <img src="wc_13.jpg" class="displaylong-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Watercolor casual practice</div>
+
+        <div id="Practice4-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/watercolor/wc_13.jpg" alt="Watercolor Art">
+                    <div class="art-title">Watercolor Timed Practice</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Watercolor Practice” was completed in 2019, using pencil, fineliner, and watercolor paint.
                     This piece features four watercolor objects, each created without a time limit to practice casual watercolor techniques and add variety.
                     I am particularly fond of the Chance the Rapper figure in the corner; the blue glow against a warm red background, along with the even pigmentation of the skin,
@@ -169,15 +88,15 @@
             </div>
         </div>
 
-        <div id="Practice3-section" class="image-and-description">
-            <a href="wc_12.jpg" class="imagelong-display">
-                <img src="wc_12.jpg" class="displaylong-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Watercolor timed practice</div>
+
+
+        <div id="#Practice3-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/watercolor/wc_12.jpg" alt="Watercolor Art">
+                    <div class="art-title">Watercolor Timed Practice</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Watercolor Timed Practice” was completed in 2019, using pencil and watercolor paint.
                     The objective of this piece was to do a timed practice, completing a scene within the given time allocation.
                     The three pieces were done in intervals of 5, 10, and 20 minutes respectively, each providing experience with different watercolor techniques and styles under the constraint of time.
@@ -186,18 +105,16 @@
             </div>
         </div>
 
-        <h2 id="2018">2018</h2>
-        <hr />
+        <h2 class="about-heading" id="2018"> 2018</h2>
+        <hr>
 
-        <div id="GalaxyCasual-section" class="image-and-description">
-            <a href="wc_11.jpg" class="imagelong-display">
-                <img src="wc_11.jpg" class="displaylong-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Galaxy Man Casual</div>
+        <div id="GalaxyCasual-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/watercolor/wc_11.jpg" alt="Watercolor Art">
+                    <div class="art-title">Galaxy Man Casual</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Galaxy Man Casual” was around December, 2018, using pencil, fineliner, alchohol marker,and watercolor paint.
                     I found this drawing a nice change of pace, allowing me to slightly shift focus to human body proportions while keeping it within the Galaxy Man series.
                     Combining these mediums provided great insight into the quality of the product that can be created for future projects, showcasing the potential for rich textures, vibrant colors, and intricate details.
@@ -206,31 +123,28 @@
             </div>
         </div>
 
-        <div id="Stellar-section" class="image-and-description">
-            <a href="wc_10.jpg" class="imagelong-display">
-                <img src="wc_10.jpg" class="displaylong-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Stellar Creations</div>
+        <div id="Stellar-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/watercolor/wc_10.jpg" alt="Watercolor Art">
+                    <div class="art-title">Stellar Creations</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Stellar Creations” was completed on July 9, 2018, using watercolor, acrylic paints,water marker, pencil, Glaze, and fineliner pen.
                     One of the trickiest aspects of this piece was working on poster board rather than traditional watercolor paper,
                     which required careful consideration at each step. The glaze would be used to create a shiny effect, which was only applied to the galaxy area. The astronaut featured is the same character from "Astral Plane" and "Launch Break".
                     I took creative liberties with the composition, infusing the scene with elements of comedy and intrigue.
+                </p>
             </div>
         </div>
 
-        <div id="Spiderman-section" class="image-and-description">
-            <a href="wc_9.jpg" class="imagelong-display">
-                <img src="wc_9.jpg" class="displaylong-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Ultimate Spiderman </div>
+        <div id="Spiderman-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/watercolor/wc_9.jpg" alt="Watercolor Art">
+                    <div class="art-title">Ultimate SpiderMan</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Ultimate Spiderman,” created on July 2, 2018, features Marvel’s Ultimate Spiderman Comic Variant and was crafted using pencil, fineliner, and watercolor paint.
                     Knowing I had to use a single color, I was able to adapt to different shades to create a dynamic, three-dimensional effect.
                     Rather than using color pencil or marker to create these different shades, I chose watercolor to expand my ability.
@@ -239,15 +153,13 @@
             </div>
         </div>
 
-        <div id="Pagebreaker-section" class="image-and-description">
-            <a href="wc_8.jpg" class="imagelong-display">
-                <img src="wc_8.jpg" class="displaylong-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Page breaker</div>
+        <div id="Pagebreaker-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/watercolor/wc_8.jpg" alt="Watercolor Art">
+                    <div class="art-title">Page Breaker</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Page Breaker” was created on May 25, 2018, using pencil, fineliner, and watercolor paint.
                     This piece is the first time in which I had drawn this concept, which would later become a recurring elemenet in future pieces.
                     From the tears into the page, to the flow of the galaxies, I took extra care to blend real and surreal elements seamlessly
@@ -257,16 +169,13 @@
             </div>
         </div>
 
-        <div id="Launch-section" class="image-and-description">
-            <a href="wc_7.jpg" class="imagelong-display">
-                <img src="wc_7.jpg" class="displaylong-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Launch Break </div>
+        <div id="Launch-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/watercolor/wc_7.jpg" alt="Watercolor Art">
+                    <div class="art-title">Launch Break</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
-
+                <p class="art-description">
                     “Launch Break” was created on April 22, 2018, using a mix of fineliner pen, pencil, and watercolor paints.
                     This piece is a follow-up to “Astral Plane” and is part of a series of practice pieces. The contrast of different colors mixed to create a stellar nebula effect,
                     along with the creative stylization of the astronaut, was kept consistent with the previous piece.
@@ -277,15 +186,13 @@
             </div>
         </div>
 
-        <div id="DBC-section" class="image-and-description">
-            <a href="wc_6.jpg" class="imagelong-display">
-                <img src="wc_6.jpg" class="displaylong-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Dragon Ball Cover </div>
+        <div id="DBC-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/watercolor/wc_6.jpg" alt="Watercolor Art">
+                    <div class="art-title">Dragon Ball Cover</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Dragon Ball Cover” was created on March 23, 2018, using watercolor paints, permanent marker, and fineliner pen.
                     It was inspired by the iconic covers of the Dragon Ball manga, featuring dynamic character composition, watercolor paints, and effective color choices.
                     I thoroughly enjoyed making this piece, which served as a testament to my skills and creativity, such as composition to using silver permanent marker, adding highlights to the piece.
@@ -294,16 +201,13 @@
             </div>
         </div>
 
-        <div id="Mondays-section" class="image-and-description">
-            <a href="wc_5.jpg" class="imagelong-display">
-                <img src="wc_5.jpg" class="displaylong-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Mondays</div>
+        <div id="Mondays-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/watercolor/wc_5.jpg" alt="Watercolor Art">
+                    <div class="art-title">Mondays</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
-
+                <p class="art-description">
                     “Mondays” was created on February 23, 2018, using pencil, watercolor, and acrylic paints.
                     The mixing of two dark to bright colors respectively created the dynamic galaxy seen in the background, adding depth and vibrancy to the scene.
                     Using the glaze, the galaxy would have a shiny effect when under light, adding to the finished quality of the product.
@@ -311,15 +215,13 @@
             </div>
         </div>
 
-        <div id="Birds-section" class="image-and-description">
-            <a href="wc_4.jpg" class="imagelong-display">
-                <img src="wc_4.jpg" class="displaylong-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Watercolor Birds Color Study</div>
+        <div id="Birds-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/watercolor/wc_4.jpg" alt="Watercolor Art">
+                    <div class="art-title">Venom</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Watercolor Birds Color Study” was created on March 1, 2018, using a mix of fineliner pen and watercolor paints.
                     The objective of this practice piece was to become more comfortable with long and short form watercolor blending, especially using natural colors that appear in nature.
                     By focusing on birds with vivid colors in their feathers. This allowed me to practice my watercolor choices and application.
@@ -327,54 +229,48 @@
                 </p>
             </div>
         </div>
-
-        <div id="Bluerose-section" class="image-and-description">
-            <a href="wc_3.jpg" class="imagewide-display">
-                <img src="wc_3.jpg" class="displaywide-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Watercolor Rose Color Study</div>
+        
+        <div id="Bluerose-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box landscape">
+                    <img src="images/All/watercolor/wc_3.jpg" alt="Watercolor Art">
+                    <div class="art-title">Watercolor Rose Study</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Watercolor Rose Color Study” was created on February 2, 2018, using a mix of fineliner pen and watercolor paints.
                     The objective of this practice piece was to become more comfortable with
                     long and short form watercolor blending, such as achieving dark and bright colors in different elements of a drawing.
                     I realized that understanding and mastering my materials, and being able to use them to their full potential, would have a profound and lasting impact on my future projects.
                 </p>
-            </div>
+             </div>
         </div>
 
-        <h2 id="2017">2017</h2>
-        <hr />
+        <h2 class="about-heading" id="2017"> 2017</h2>
+        <hr>
 
-        <div id="Astral-section" class="image-and-description">
-            <a href="watercolor.jpg" class="imagelong-display">
-                <img src="watercolor.jpg" class="displaylong-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Astral Plane</div>
+        <div id="Astral-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/watercolor/watercolor.jpg" alt="Watercolor Art">
+                    <div class="art-title">Astral Plane</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
-                    “Astral Plane” was created on December 13, 2017, using a mix of fineliner pen, pencil, and watercolor paints.
+                <p class="art-description">
+                    “Astral Plane" was created on December 13, 2017, using a mix of fineliner pen, pencil, and watercolor paints.
                     In this piece, I brought to life a vibrant and expressive galaxy with a multitude of colors and dynamic brushstrokes.
-                    The swirling patterns and vivid hues evoke a sense of wonder and exploration.
-                    I paid close attention to the interplay of cool and warm colors to create the vibrancy of outer space.
-                    I enjoy this piece more over time, as only with time does it become clear how elegantly the colors mix, creating the effect of a planet on the left and a bright nebula on the right.
+                    The swirling patterns and vivid hues reminds me alot of the game, No Man's Sky.
+                    I paid close attention to the mix of cool and warm colors to create the vibrancy of outer space.
+                    I enjoy this piece more over time, as only with time does it become clear how vividly the colors mix, creating the effect of a planet on the left and a bright nebula on the right.
                 </p>
             </div>
         </div>
 
-        <div id="GotenksSSJ-section" class="image-and-description">
-            <a href="wc_1.jpg" class="imagelong-display">
-                <img src="wc_1.jpg" class="displaylong-image" alt="Commissioned Art">
-                <div class="overlay">
-                    <div class="text-display">Super Sayain Gotenks</div>
+        <div id="GotenksSSJ-section" class="art-item">
+            <div class="art-content">
+                <div class="art-image-box portrait">
+                    <img src="images/All/watercolor/wc_1.jpg" alt="Imperial Dragon">
+                    <div class="art-title">Super Sayain Gotenks</div>
                 </div>
-            </a>
-            <div class="description">
-                <p>
+                <p class="art-description">
                     “Super Saiyan Gotenks” was created on August 2, 2017, using a combination of gel pens, colored pencils, watercolor, and acrylic paints.
                     This was my first multimedia watercolor piece,
                     and I beleive one of the main reasons this piece stands out is the professional and consistent level achieved with the mix of materials, successfully executing the envisioned concept.
@@ -383,4 +279,7 @@
                 </p>
             </div>
         </div>
+    </section>
+
+</body>
 </html>
